@@ -23,8 +23,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-console.log("### 111", Colors)
-
 const Section = ({children, title}) => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
@@ -70,7 +68,7 @@ const App = () => {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
-             <Text style={styles.highlight}>App.js</Text> to change this
+            <Text style={styles.highlight}>App.js</Text> to change this
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
