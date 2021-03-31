@@ -33,9 +33,9 @@ const App = () => {
       <AddItem addItem={addItem} />
       <FlatList
         data={items}
-        renderItem={({item}) => (
-          <ListItem item={item} deleteItem={deleteItem} />
-        )}
+        renderItem={({item}) => {
+          return <ListItem item={item} deleteItem={deleteItem} />;
+        }}
       />
     </View>
   );

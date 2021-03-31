@@ -15,8 +15,10 @@
     "appcenter-crashes": "4.1.0",
     "cocoapods": "0.0.0",
     "dos2unix": "^1.1.2",
+    "link": "^0.1.5",
     "react": "17.0.1",
     "react-native": "0.64.0",
+    "react-native-splash-screen": "^3.2.0",
     "react-native-vector-icons": "^8.1.0"
   },
   "devDependencies": {
